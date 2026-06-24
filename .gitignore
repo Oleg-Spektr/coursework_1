@@ -2,7 +2,6 @@
 .venv/
 venv/
 ENV/
-poetry.lock
 
 # Кэш Python и инструментов качества кода
 __pycache__/

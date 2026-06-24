@@ -1,0 +1,30 @@
+# Виртуальные окружения и Poetry
+.venv/
+venv/
+ENV/
+poetry.lock
+
+# Кэш Python и инструментов качества кода
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.flake8_cache/
+.black_cache/
+
+# Исходные банковские данные (Конфиденциально!)
+data/operations.xls
+data/operations.xlsx
+
+# Сгенерированные Excel-отчеты (Не должны засорять репозиторий)
+reports/
+
+# Секретные переменные окружения и настройки пользователя
+.env
+user_settings.json
+
+# Настройки среды разработки PyCharm
+.idea/
+*.iml
